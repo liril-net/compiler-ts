@@ -1,0 +1,22 @@
+{
+  "name": "compiler-ts",
+  "version": "0.0.1",
+  "description": "Complier typescript version",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack --progress -c -w",
+    "out": "nodemon dist/bundle.js"
+  },
+  "keywords": [
+    "Compiler",
+    "TypeScript"
+  ],
+  "author": "liril <god@liril.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {}
+}
